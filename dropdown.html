@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+</head>
+<body>
+    <select id="subject">
+        <option value="DS">DS</option>
+        <option value="WT">WT</option>
+        <option value="TEC">TEC</option>
+        <option value="AI">AI</option>
+        <option value="COOS">COOS</option>
+        <option value="MFAI">MFAI</option>
+        <option value="PP">PP</option>
+        <option value="PPLAB">PPLAB</option>
+    </select>
+    <button onclcik="showSubject()">Submit</button>
+    <script>
+        function showSubject(){
+            let selected=document.getElementById("subject").value;
+            alert("Your selected subject is:"+selected);
+        }
+    </script>
+</body>
+</html>
